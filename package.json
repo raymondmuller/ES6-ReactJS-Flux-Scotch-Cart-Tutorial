@@ -1,5 +1,5 @@
 {
-	"name": "ES6 Flux Cart App (Scotch.IO Tutorial)",
+	"name": "es6-react-flux-cart-tutorial-scotch",
   "description": "The Scotch.IO ReactJS Tutorial in ES6 and the gulp build system",
   "author": "Raymond Muller <raymond.muller.1989@gmail.com>",
   "version": "1.0.0",
