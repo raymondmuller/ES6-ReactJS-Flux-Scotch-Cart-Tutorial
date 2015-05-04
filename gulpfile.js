@@ -5,8 +5,6 @@ var browserify = require("browserify");
 var babelify = require("babelify");
 var source = require("vinyl-source-stream");
 var runSequence = require("run-sequence");
-var uglify = require("gulp-uglify");
-var buffer = require("vinyl-buffer");
 var opn = require("opn");
 var connect = require("gulp-connect");
 var del = require("del");
@@ -24,9 +22,7 @@ gulp.task("compile", function (cb) {
         .on("end", function() {
             cb();
         });
-
 });
-
 
 gulp.task("copy", function (cb) {
     gulp.src("./index.html")
