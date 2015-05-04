@@ -1,0 +1,3 @@
+*.DSStore
+node_modules
+build
